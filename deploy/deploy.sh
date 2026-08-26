@@ -11,7 +11,7 @@ echo "[2/5] Building frontend..."
 npm run build
 
 echo "[3/5] Restarting application..."
-pm2 startOrReload ecosystem.config.cjs --env production
+pm2 startOrReload ecosystem.config.cjs
 pm2 save
 
 echo "[4/5] Running local health check..."
