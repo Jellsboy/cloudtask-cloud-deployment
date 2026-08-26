@@ -1,0 +1,33 @@
+CLOUDTASK - START HERE
+======================
+
+1. Buka folder ini di VS Code.
+2. Buka terminal di folder project.
+3. Jalankan:
+
+   npm install
+   npm run dev
+
+4. Buka http://localhost:5173
+
+UNTUK TEST PRODUKSI:
+   npm run build
+   npm start
+   buka http://localhost:3000
+
+FILE PENTING:
+- README.md                 : penjelasan project
+- DEPLOYMENT_GUIDE.md       : langkah cloud + domain + SSL + CI/CD
+- ASSESSMENT_SUBMISSION.md  : teks pengumpulan LMS
+- .github/workflows/deploy.yml : CI/CD
+- deploy/nginx/cloudtask.conf   : Nginx
+- ecosystem.config.cjs      : PM2
+- src/store/useTaskStore.js : client-side state management
+
+SEBELUM DIKUMPULKAN:
+- buat repository GitHub
+- deploy ke VM cloud
+- pasang domain dan SSL
+- isi GitHub Secrets untuk CI/CD
+- buktikan workflow GitHub Actions sukses
+- ganti URL USERNAME di ASSESSMENT_SUBMISSION.md

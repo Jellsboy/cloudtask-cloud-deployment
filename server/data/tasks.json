@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1bd8dbf0-6e51-4868-89b6-ae218e7a5c5a",
+    "title": "Task Offline CloudTask",
+    "description": "Task dibuat ketika koneksi offline",
+    "status": "todo",
+    "priority": "high",
+    "dueDate": "",
+    "createdAt": "2026-08-26T09:12:50.863Z",
+    "updatedAt": "2026-08-26T09:14:28.464Z"
+  },
+  {
+    "id": "7d91199f-48a7-4123-b776-92ab373c66df",
+    "title": "Pengujian Deployment CloudTask",
+    "description": "Menguji client-side state dan REST API",
+    "status": "doing",
+    "priority": "medium",
+    "dueDate": "",
+    "createdAt": "2026-08-26T09:08:49.690Z",
+    "updatedAt": "2026-08-26T09:09:48.113Z"
+  },
+  {
+    "id": "demo-cloud-deploy",
+    "title": "Deploy CloudTask ke Oracle Cloud",
+    "description": "Build production, jalankan dengan PM2, lalu arahkan Nginx ke aplikasi.",
+    "status": "doing",
+    "priority": "high",
+    "dueDate": "2026-08-30",
+    "createdAt": "2026-08-26T08:00:00.000Z",
+    "updatedAt": "2026-08-26T08:00:00.000Z"
+  },
+  {
+    "id": "demo-ssl-domain",
+    "title": "Aktifkan domain dan SSL",
+    "description": "Arahkan DNS A record dan gunakan Certbot agar aplikasi berjalan melalui HTTPS.",
+    "status": "todo",
+    "priority": "medium",
+    "dueDate": "2026-08-31",
+    "createdAt": "2026-08-26T07:30:00.000Z",
+    "updatedAt": "2026-08-26T07:30:00.000Z"
+  },
+  {
+    "id": "demo-cicd",
+    "title": "Verifikasi pipeline CI/CD",
+    "description": "Push ke branch main dan pastikan GitHub Actions melakukan deployment otomatis.",
+    "status": "done",
+    "priority": "medium",
+    "dueDate": "2026-08-29",
+    "createdAt": "2026-08-26T07:00:00.000Z",
+    "updatedAt": "2026-08-26T07:00:00.000Z"
+  }
+]
