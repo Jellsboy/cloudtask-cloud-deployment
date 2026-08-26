@@ -16,7 +16,7 @@ pm2 save
 
 echo "[4/5] Running local health check..."
 sleep 2
-curl --fail --silent http://127.0.0.1:3000/api/health
+curl --fail --silent http://127.0.0.1:3100/api/health
 
 echo
 echo "[5/5] Deployment completed successfully."

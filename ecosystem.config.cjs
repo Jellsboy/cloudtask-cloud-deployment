@@ -11,7 +11,7 @@ module.exports = {
       max_memory_restart: '300M',
       env: {
         NODE_ENV: 'production',
-        PORT: 3000,
+        PORT: 3100,
         APP_NAME: 'CloudTask'
       }
     }
